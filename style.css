@@ -49,6 +49,8 @@
   header h1 em { color: var(--green-mid); font-style: italic; font-weight: 400; }
   header h1 .accent { color: var(--pink); }
   .subtitle { color: var(--muted); font-size: 11px; margin-top: 7px; letter-spacing: 0.1em; text-transform: uppercase; }
+  .subtitle a { color: var(--pink); text-decoration: none; }
+  .subtitle a:hover { text-decoration: underline; }
 
   .upload-zone {
     border: 2px dashed var(--border);
