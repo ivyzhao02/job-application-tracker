@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>ivy's job hunt</title>
+<title>ivy's job tracker</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <link rel="stylesheet" href="style.css">
@@ -14,8 +14,8 @@
 
 <div class="wrap">
   <header>
-    <h1>ivy's <em>job hunt</em> <span class="accent">✦</span></h1>
-    <div class="subtitle">class of 2026 · markham, on → anywhere · powered by your xlsx</div>
+    <h1>ivy's <em>job tracker</em> <span class="accent">✦</span></h1>
+    <div class="subtitle"><a href="https://github.com/ivyzhao02" target="_blank">github.com/ivyzhao02</a> · <a href="https://ivyzhao.ca" target="_blank">ivyzhao.ca</a> · <a href="https://me0wberry.com" target="_blank">me0wberry.com</a></div>
   </header>
 
   <div class="upload-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
@@ -75,13 +75,6 @@
     </div>
 
     <div class="faq-item">
-      <div class="faq-q">How do I host this on GitHub Pages?</div>
-      <div class="faq-a">
-        Create a new GitHub repo. Drop <code>index.html</code> and <code>applications_tracker.xlsx</code> into the root. Go to Settings → Pages → deploy from <code>main</code>. Done. When you update your xlsx, just re-upload it to the repo and the dashboard refreshes on next load. Your data never touches any server.
-      </div>
-    </div>
-
-    <div class="faq-item">
       <div class="faq-q">Can I add more columns?</div>
       <div class="faq-a">
         Yes — the dashboard reads whatever columns exist in your sheet and displays them automatically. Just don't rename the core columns: <code>Status</code>, <code>Stage</code>, <code>Company</code>, <code>Role</code>, or <code>Date Applied</code>, as those power the sorting and stats.
@@ -132,9 +125,8 @@
   </div>
 
   <footer>
-    built for <a href="https://ivyzhao.ca" target="_blank">ivy zhao</a> &nbsp;·&nbsp;
-    data stays in your browser &nbsp;·&nbsp;
-    <a href="applications_tracker.xlsx" download>⬇ download blank template</a>
+    built by <a href="https://ivyzhao.ca" target="_blank">ivy zhao</a> &nbsp;·&nbsp;
+    &copy; Ivy Zhao 2026
   </footer>
 </div>
 
